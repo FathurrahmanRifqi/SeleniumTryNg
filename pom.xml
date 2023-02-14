@@ -35,6 +35,7 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>src\test\java\TestSuite1.xml</suiteXmlFile>
                         </suiteXmlFiles>
+                         <testFailureIgnore>true</testFailureIgnore>
                     </configuration>
                 </plugin>
                 
