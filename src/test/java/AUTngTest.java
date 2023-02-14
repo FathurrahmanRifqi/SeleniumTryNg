@@ -94,9 +94,9 @@ public class AUTngTest {
            //element is required and validation error will popup if the field is empty.
             System.out.println("TEST CASE 3 PASS:Tooltip Alert Required success verified");
         }else{
-            System.out.println("TEST CASE 2 FAIL:Tooltip Alert Required failed verified");
+            System.out.println("TEST CASE 3 FAIL:Tooltip Alert Required failed verified");
         }
-         this.takeSnapShot(driver,"testcase3.png");
+        this.takeSnapShot(driver,"testcase3.png");
     }
     
     @AfterTest
