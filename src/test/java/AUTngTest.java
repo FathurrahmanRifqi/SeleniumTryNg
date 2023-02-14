@@ -46,7 +46,7 @@ public class AUTngTest {
 
     @Test
     public void testCase1() throws Exception{
-        driver.get("http://localhost:80/index.php");
+        driver.get("http://localhost/index.php");
         driver.findElement(By.id("username")).sendKeys("admin");
         driver.findElement(By.id("password")).sendKeys("admin123");
         driver.findElement(By.xpath("/html/body/div/form/input[3]")).click();
@@ -64,7 +64,7 @@ public class AUTngTest {
     
     @Test
     public void testCase2() throws Exception{
-        driver.get("https://localhost:80/index.php");
+        driver.get("https://localhost/index.php");
         driver.findElement(By.id("username")).sendKeys("asalasalan");
         driver.findElement(By.id("password")).sendKeys("passwordsalah");
         driver.findElement(By.xpath("/html/body/div/form/input[3]")).click();
@@ -81,7 +81,7 @@ public class AUTngTest {
     
     @Test
     public void testCase3() throws Exception{
-        driver.get("http://localhost:80/index.php");
+        driver.get("http://localhost/index.php");
         
         driver.findElement(By.xpath("/html/body/div/form/input[3]")).click();
         
