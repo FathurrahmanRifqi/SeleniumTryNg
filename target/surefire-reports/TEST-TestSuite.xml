@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestSuite" time="0.85" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="0.886" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
@@ -63,7 +63,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="AUTngTest" name="testCase1" time="0.484"/>
-  <testcase classname="AUTngTest" name="testCase2" time="0.228"/>
+  <testcase classname="AUTngTest" name="testCase1" time="0.517"/>
+  <testcase classname="AUTngTest" name="testCase2" time="0.231"/>
   <testcase classname="AUTngTest" name="testCase3" time="0.138"/>
 </testsuite>
